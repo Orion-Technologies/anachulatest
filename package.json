@@ -1,0 +1,15 @@
+{
+  "name": "anachula",
+  "version": "1.0.0",
+  "description": "Sito web anachula.com",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch src/assets/scss:build/css"
+  },
+  "author": "Orion Technologies",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.83.4"
+  }
+}
