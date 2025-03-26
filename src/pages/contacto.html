@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../build/css/anaChulabs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <title>Contacto</title>
 </head>
 <body>
@@ -36,6 +38,47 @@
         </div>
       </div>
 
+      <div class="row row-cols-1 row-cols-md-2 g-4 m-3">
+        <div class="col">
+          <div class="card text-bg-ana-chula-green">
+            <div class="card-body">
+              <address>
+                <h3 class="card-title">Contáctanos</h3>
+                <h5 class="card-title">Guatemala</h5>
+                <p class="card-text"><i class="bi bi-buildings-fill"></i> 2 calle 21-66, Zona 15 Vista Hermosa II, Edificio Plaza 21, 3er Nivel, Oficina #4</p>
+                <p class="card-text"><i class="bi bi-phone-fill"></i> Teléfono: <a href="tel:+50233078034" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">+502 3307 8034</a></p>
+                <p class="card-text"><i class="bi bi-envelope-at-fill"></i> Email: <a href="mailto:ventas@anachula.com" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">ventas@anachula.com</a></p>
+                <p class="card-text"><i class="bi bi-clock-fill"></i> Horario de atención: Lunes a viernes: 8:30 a.m. - 5:00 p.m</p>
+              </address>
+              <div id="mapa-gt" class="mb-3"></div>
+              <a href="https://waze.com/ul?q=2 calle 21-66, Zona 15 Vista Hermosa II, Guatemala" target="_blank" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" >
+                <i class="bi bi-geo-alt-fill"></i> Abrir en Waze </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-bg-ana-chula-green">
+            <div class="card-body">
+              <address>
+                <h3 class="card-title">Contáctanos</h3>
+                <h5 class="card-title">México</h5>
+                <p class="card-text"><i class="bi bi-buildings-fill"></i> Río Rhin 22, Interior PH1, Col. Renacimiento, Cuauhtémoc, 06500, CDMX, Piso 8</p>
+                <p class="card-text"><i class="bi bi-phone-fill"></i> Teléfono: <a href="tel:+525514979356" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">+52 55 1497 9356</a></p>
+                <p class="card-text"><i class="bi bi-envelope-at-fill"></i> Email: <a href="mailto:ventas@anachula.com" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> ventas@anachula.com</a></p>
+                <p class="card-text"><i class="bi bi-clock-fill"></i> Horario de atención: Lunes a viernes: 9:30 a.m. - 6:00 p.m</p>
+              </address>
+              <div id="mapa-mx" class="mb-3"></div>
+              <a href="https://waze.com/ul?q=Río Rhin 22, Interior PH1, Col. Renacimiento, Cuauhtémoc, 06500, CDMX" target="_blank" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" >
+                <i class="bi bi-geo-alt-fill"></i> Abrir en Waze </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+      <script src="../../src/js/mapgt.js"></script>
+      <script src="../../src/js/mapmx.js"></script>
 </body>
 </html>

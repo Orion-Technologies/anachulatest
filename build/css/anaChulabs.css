@@ -12503,4 +12503,16 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=anaChulabs.css.map */
+#mapa-gt {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#mapa-mx {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
