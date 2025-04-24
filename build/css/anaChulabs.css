@@ -220,6 +220,48 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/**
+* hoverImage
+*/
+
+.hoverImageWrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.hoverImage {
+  display: block;
+  align-self: stretch;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+ .hoverImageWrap:hover .hoverImage {
+  transform: scale(1.2);
+ }
+
+ /**
+ *Font
+ */
+
+ @font-face {
+  font-family: 'Gladiola';
+  src: url('../../src/assets/fonts/gladiola/Gladiola.otf'),
+       url('../../src/assets/fonts/gladiola/Gladiola.ttf'),
+       url('../../src/assets/fonts/gladiola/Gladiola.woff2') format('woff2'),
+       url('../../src/assets/fonts/gladiola/Gladiola.woff') format('woff');
+ }
+
+.fontGla {
+  font-family: 'Gladiola', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
